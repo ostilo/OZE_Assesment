@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/developersFragment">
+
+    <fragment
+        android:id="@+id/developersFragment"
+        android:name="com.oze.dev.ui.fragments.developers.DevelopersFragment"
+        android:label="fragment_developers"
+        tools:layout="@layout/fragment_developers" >
+        <action
+            android:id="@+id/action_developersFragment_to_developerDetailsFragment"
+            app:destination="@id/developerDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.oze.dev.ui.fragments.favourite.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite" >
+        <action
+            android:id="@+id/action_favouriteFragment_to_developerDetailsFragment"
+            app:destination="@id/developerDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/developerDetailsFragment"
+        android:name="com.oze.dev.ui.fragments.developerdetail.DeveloperDetailsFragment"
+        android:label="fragment_developer_details"
+        tools:layout="@layout/fragment_developer_details" >
+        <argument
+            android:name="developerdata"
+            app:argType="string" />
+        <argument
+            android:name="developerid"
+            app:argType="integer" />
+    </fragment>
+</navigation>

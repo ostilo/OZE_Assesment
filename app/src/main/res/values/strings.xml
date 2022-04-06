@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dev</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment Home</string>
+    <string name="hello_blank_fragment_fav">Hello blank fragment Favourite</string>
+    <string name="no_user_found">Sorry none of the users is found.\n Please retry after some time</string>
+    <string name="error_internet">Internet not available</string>
+    <string name="retry">OK</string>
+    <string name="loading_users">Loading more users</string>
+    <string name="fav_string">No favorite added yet</string>
+    <string name="starred_count">Starred count</string>
+    <string name="fork_count">Fork Count</string>
+    <string name="sample_name">Ali</string>
+    <string name="repos">Repositories</string>
+    <string name="loading_repos">Loading more repos</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/btn_developer_favourite.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_favorite_dev.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_grid_view.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_fork.xml" value="0.1296875" />
+        <entry key="app/src/main/res/drawable/ic_star.xml" value="0.1296875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/custom_toolbar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/developer_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/devs_item_shimmer_loading.xml" value="0.10840932117527863" />
+        <entry key="app/src/main/res/layout/empty_layout.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/favourite_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_developer_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_developers.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_favourite.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_user_repos_shimmer_loading.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layoutshimmerloading.xml" value="0.10840932117527863" />
+        <entry key="app/src/main/res/layout/repo_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/user_repo_item_shimmer_loading.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
